@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500;600&family=REM&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+.cards:hover{
+    box-shadow:10px 25px 20px grey;
+}
+
+.cards{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.btn{
+    background-color: #E25E3E;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: #52D3D8;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    color: black;
+}
+

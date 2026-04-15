@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500;600&family=REM&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+.heading:hover{
+    text-decoration: underline green;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #E25E3E;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: #52D3D8;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    color: black;
+}
+
+.button{
+    background-color: rgb(255, 45, 45);
+    color: aliceblue;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #52D3D8;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+

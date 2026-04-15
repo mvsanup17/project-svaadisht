@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500;600&family=REM&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+.box{
+    background-image: url('../../images/blue_burger.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate {
+    animation: rotateImg 10s linear infinite;
+    transition: height 0.5s ease;
+}
+
+@keyframes rotateImg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.enterBtn{
+    background-color: #52D3D8;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    color: black;
+    border-radius: 15px;
+}
+
+.enterBtn:hover{
+    background-color: aliceblue;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    color: black;
+    border-radius: 15px;
+}
+
+.cardDesign:hover{
+    box-shadow:10px 25px 20px grey;
+    border-radius:30px;
+    color: rgb(255, 183, 0);
+}
+
+.cardDesign:hover img{
+    scale: 1.2;
+    transition: all ease 1s;
+}

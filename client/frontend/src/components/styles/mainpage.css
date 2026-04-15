@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500;600&family=REM&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+.bg-img-1{
+    background-image: url('../../images/biodiverse.avif');
+}
+
+.bg-img-2{
+    background-image: url('../../images/International.jpg');
+}
+
+.bg-img-3{
+    background-image: url('../../images/cooking.jpg');
+}
+
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.col{
+    color: black;
+}
+
+.edit{
+    text-decoration: none;
+    color : black;
+}
+
+.set{
+    margin-top: 250px;
+}
+
+.set-1{
+    color: antiquewhite;
+}
+
+.set-2{
+    color: yellow;
+}
