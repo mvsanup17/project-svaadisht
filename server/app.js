@@ -21,6 +21,8 @@ app.use(cors({
 }));
 app.use(express.static("public"));
 
+app.options("*", cors());
+
 // ─── Multer Setup ──────────────────────────────────────────────────────────────
 const storage = multer.diskStorage({
   destination: (_req, _file, cb) => cb(null, "public/details"),
