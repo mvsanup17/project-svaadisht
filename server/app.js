@@ -13,15 +13,17 @@ dotenv.config();
 const app = express();
 
 // ─── Middleware ────────────────────────────────────────────────────────────────
-app.use(express.json());
+
 app.use(cors({
-  origin: ["http://localhost:3000","https://project-svaadisht.netlify.app/"],
+  origin: ["http://localhost:3000","https://project-svaadisht.netlify.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
+
+app.use(express.json());
+
 app.use(express.static("public"));
 
-app.options("*", cors());
 
 // ─── Multer Setup ──────────────────────────────────────────────────────────────
 const storage = multer.diskStorage({
